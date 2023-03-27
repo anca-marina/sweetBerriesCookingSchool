@@ -105,13 +105,9 @@ header button{
 .card-container {
     grid-column: 1/-1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-columns: minmax(256px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-auto-rows: minmax(324px, auto);
     gap: 20px;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: space-between;*/
 }
 
 .card {
